@@ -1,10 +1,10 @@
-package com.github.ffmammadov.creational.factorymethod;
+package com.github.ffmammadov.creational.factorymethod.product;
 
 public abstract class BaseAudio implements Audio {
     private String name;
     private String type;
 
-    public BaseAudio(String name, String type) {
+    BaseAudio(String name, String type) {
         this.name = name;
         this.type = type;
     }

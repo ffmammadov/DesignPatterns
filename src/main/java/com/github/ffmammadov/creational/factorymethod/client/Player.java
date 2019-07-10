@@ -1,4 +1,4 @@
-package com.github.ffmammadov.creational.factorymethod;
+package com.github.ffmammadov.creational.factorymethod.client;
 
 import com.github.ffmammadov.creational.factorymethod.product.Audio;
 

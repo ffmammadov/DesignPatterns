@@ -1,8 +1,8 @@
-package com.github.ffmammadov.creational.factorymethod;
+package com.github.ffmammadov.creational.factorymethod.product;
 
 public class Mp3Audio extends BaseAudio {
 
-    public Mp3Audio(String name) {
+    protected Mp3Audio(String name) {
         super(name, ".mp3");
     }
 

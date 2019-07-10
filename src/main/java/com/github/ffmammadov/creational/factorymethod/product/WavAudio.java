@@ -1,9 +1,9 @@
-package com.github.ffmammadov.creational.factorymethod;
+package com.github.ffmammadov.creational.factorymethod.product;
 
 public class WavAudio extends BaseAudio {
 
 
-    public WavAudio(String name) {
+    protected WavAudio(String name) {
         super(name, ".wav");
     }
 
